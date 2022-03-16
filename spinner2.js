@@ -6,7 +6,9 @@ for (let elm of symbols) {
   }, t);
   t += 200;
 }
-
+setTimeout(() => {
+  console.log();
+}, t);
 // setTimeout(() => {
 //   process.stdout.write('\r|   ');
 // }, 100);
